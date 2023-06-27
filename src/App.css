@@ -1,41 +1,45 @@
 html {
-    scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
 }
-.app{
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    background: rgb(63,94,251);
-    background: linear-gradient(238deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    238deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
 }
-.app__top{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.app__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .app__top > h1 {
-    color: white;
-    font-size: 1.6rem;
+  color: white;
+  font-size: 1.6rem;
 }
 
-.app__logo{
-    height: 10vh;
-    background-color: rgb(252, 231, 231);
-    border-radius: 24px;
+.app__logo {
+  height: 10vh;
+  background-color: rgb(252, 231, 231);
+  border-radius: 24px;
 }
 
-.app__videos::-webkit-scrollbar{
-    display: none;
+.app__videos::-webkit-scrollbar {
+  display: none;
 }
 
-.app__videos{
-    position: relative;
-    margin-top:-20px ;
-    height: 80vh;
-    background-color: white;
-    width: 360px;
-    border-radius: 20px;
-    overflow: scroll;
-    scroll-snap-type: y mandatory;
+.app__videos {
+  position: relative;
+  margin-top: -20px;
+  height: 80vh;
+  background-color: white;
+  width: 440px;
+  border-radius: 20px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
 }
